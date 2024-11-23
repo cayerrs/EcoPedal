@@ -144,18 +144,18 @@ span{
 .descuento_home{
     color: black;
     background-color: var(--main-color);
-    border-radius: 15px;
-    padding: 0.8rem;
-    margin-right: 1.1rem;
+    border-radius: 4vw;
+    padding: 0.4vw;
+    margin-right: 0.7vw;
 }
 
 .descuento{
     color: black;
     background-color: var(--main-color);
-    border-radius: 15px;
+    border-radius: 4vw;
     padding: 0.8rem;
     margin-right: 1.1rem;
-    border: 3px solid black;
+    border: 0.2vw solid black;
 }
 
 .home-img img{
@@ -175,15 +175,15 @@ span{
 /* ESTILOS IMPORTADOS DE LOS BOTONES */
 .button {
     position: relative;
-    width: 150px;
-    height: 40px;
+    width: 9.8vw;
+    height: 3vw;
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: 3px solid black;
+    border: 0.2vw solid black;
     border-radius: 15px;
     background-color: var(--main-color);
-    font-size: 1.6rem;
+    font-size: 1vw;
   }
   
   .button, .button__icon, .button__text {
@@ -191,26 +191,26 @@ span{
   }
   
   .button .button__text {
-    transform: translateX(30px);
+    transform: translateX(2vw);
     color: black;
     font-weight: 600;
   }
   
   .button .button__icon {
     position: absolute;
-    transform: translateX(109px);
+    transform: translateX(7.1vw);
     height: 100%;
-    width: 39px;
+    width: 2.6vw;
     background-color: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 3px solid black;
+    border-right: 0.2vw solid black;
     border-radius: 15px;
   }
   
   .button .svg {
-    width: 30px;
+    width: 5vw;
     stroke: black;
   }
   
@@ -223,7 +223,7 @@ span{
   }
   
   .button:hover .button__icon {
-    width: 148px;
+    width: 9.8vw;
     transform: translateX(0);
   }
   
@@ -232,7 +232,7 @@ span{
   }
   
   .button:active {
-    border: 1px solid var(--main-color);
+    border: 0.2vw solid var(--main-color);
   }
 
   /* estilos de la seccion .galeria */
@@ -250,7 +250,7 @@ span{
     /* align-items: center; */
     width: 70vw;
     height: 40vw;
-    margin: 4rem 12%;
+    margin: 3vw 12%;
 }
 
 .galeria div{
@@ -293,7 +293,7 @@ span{
 }
 
 .galeria div:hover{
-    width: 200px;
+    width: 11vw;
     opacity: 1;
     filter: contrast(120%);
     font-size: 4rem;
@@ -310,7 +310,7 @@ span{
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 18rem;
+    gap: 8vw;
     /* height: 100rem; */
 }
 
@@ -318,8 +318,8 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 7rem;
-    margin-bottom: 5rem
+    font-size: 4vw;
+    margin-bottom: 3vw
 }
 
 /* ESTILOS IMPORTADOS DE LAS CARDS */
