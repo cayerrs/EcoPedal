@@ -612,31 +612,30 @@ footer p{
 
   /* HEADER RESPONSIVE */
   .header{
-    padding: 3rem 12%;
+    padding: 2.7vw 12%;
 }
 
 
 .logo{
-    font-size: 3rem;
+    font-size: 2.8vw;
 }
 
 .logo img{
-    width: 4rem;
+    width: 3.8vw;
     margin-right: 1rem;
 }
 
 #menu-icon{
-  font-size: 2.5rem;
+  font-size: 2.8vw;
 }
 
 .navbar i{
-  font-size: 2.5rem;
+  font-size: 2.8vw;
 }
 
 .navbar a:hover{
   color: var(--text-color);
   border-bottom: 0.5vw solid var(--main-color);
-  color: var(--main-color);
 }
 
 .dropdown-content {
@@ -747,6 +746,8 @@ footer p{
 
 }
 
+/* RESPONSIVE PARA MOVIL */
+
 @media (max-width: 400px){
 
     /* HEADER RESPONSIVE */
@@ -823,26 +824,26 @@ footer p{
   
   .button {
     margin: 0;
-    width: 11.8vw;
-    height: 4vw;
-    border: 0.3vw solid black;
-    border-radius: 4vw;
-    font-size: 1.4vw;
+    width: 13.8vw;
+    height: 5vw;
+    border: 0.4vw solid black;
+    border-radius: 5vw;
+    font-size: 1.8vw;
   }
   
   .button .button__text {
-    transform: translateX(2vw);
+    transform: translateX(1vw);
   }
   
   .button .button__icon {
-    transform: translateX(8.5vw);
-    width: 2.6vw;
+    transform: translateX(10vw);
+    width: 3vw;
     border: transparent;
     border-radius: 4vw;
   }
   
   .button:hover .button__icon {
-    width: 11.5vw;
+    width: 13.5vw;
   }
   
   /* GALERIA REACTIVE */
