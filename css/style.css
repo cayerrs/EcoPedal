@@ -845,40 +845,4 @@ footer p{
   .button:hover .button__icon {
     width: 13.5vw;
   }
-  
-  /* GALERIA REACTIVE */
-  
-  .galeria{
-    width: 70vw;
-    height: 60vw;
-    margin: 3vw 12%;
-  }
-  
-  /* FOOTER REACTIVE */
-  
-  .logo_footer{
-    font-size: 2vw;
-  }
-  
-  .logo_footer img{
-    width: 6vw;
-  }
-  
-  .footer_links{
-    margin: 2vw 10vw;
-    flex-direction: row;
-  }
-  
-  .footer_links a{
-    font-size: 1.4vw;
-  }
-  
-  .social-icons a{
-    font-size: 3vw;
-  }
-  
-  footer p{
-    font-size: 1.5vw;
-  }
-
 }
