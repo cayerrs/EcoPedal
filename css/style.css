@@ -861,6 +861,11 @@ footer p{
     margin: 3vw 0;
 }
 
+.galeria button{
+    font-size: 3vw;
+    -webkit-text-stroke: 0.2vw black; 
+}
+
 .titulocard{
   font-size: 7vw;
   margin-bottom: 4vw;
