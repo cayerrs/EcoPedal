@@ -331,12 +331,14 @@ span{
     transition: 0.5s ease;
 }
 
-.galeria a{
+.galeria button{
+  background-color: transparent;
     color: var(--text-color);
     font-size: 1.9vw;
     font-weight: 700;
     -webkit-text-stroke: 0.1vw black; 
     -webkit-font-smoothing: antialiased; 
+    cursor: pointer;
 }
 
 .casual{
@@ -360,6 +362,7 @@ span{
 }
 
 .galeria div:hover{
+  cursor: pointer;
     width: 11vw;
     opacity: 1;
     filter: contrast(120%);
@@ -406,7 +409,9 @@ span{
     cursor: pointer;
     /* transform: scale(1.2); */
     box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: var(--main-color);
+    background: var(--bg-color);
+    border: 7px solid var(--main-color);
+    color: var(--main-color);
   }
   
   .first-content {
@@ -824,11 +829,11 @@ footer p{
   
   .button {
     margin: 0;
-    width: 13.8vw;
-    height: 5vw;
+    width: 16vw;
+    height: 6vw;
     border: 0.4vw solid black;
-    border-radius: 5vw;
-    font-size: 1.8vw;
+    border-radius: 7vw;
+    font-size: 1.9vw;
   }
   
   .button .button__text {
@@ -837,12 +842,29 @@ footer p{
   
   .button .button__icon {
     transform: translateX(10vw);
-    width: 3vw;
+    width: 5vw;
     border: transparent;
     border-radius: 4vw;
   }
   
   .button:hover .button__icon {
-    width: 13.5vw;
+    width: 15.2vw;
   }
+
+  .titulo{
+    font-size: 3vw;
+}
+
+  .galeria{
+    width: 100%;
+    height: 80vw;
+    margin: 3vw 0;
+}
+
+.titulocard{
+  font-size: 7vw;
+  margin-bottom: 4vw;
+  margin-top: 14vw;
+}
+
 }
