@@ -17,11 +17,11 @@ html{
 }
 
 :root{
-    --bg-color: #001608;
-    --second-bg-color: #104a2a;
+    --bg-color: #001123;
+    --second-bg-color: #052c56;
     --text-color: white;
     --second-text-color: black;
-    --main-color: #00ff62;
+    --main-color: #007bff;
 }
 
 body{
