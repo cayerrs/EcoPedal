@@ -107,14 +107,14 @@ span{
   position: absolute;
   z-index: 1;
   min-width: 10.42vw; /* 200px -> proporcional a vw */
-  background-color: #212121;
-  border: 0.1vw solid #4CAF50; /* 2px -> proporcional a vw */
+  background-color: var(--bg-color);
+  border: 0.1vw solid var(--main-color); /* 2px -> proporcional a vw */
   border-radius: 0vw 0.78vw 0.78vw 0.78vw; /* 0px 15px 15px 15px -> proporcional */
   box-shadow: 0vw 0.42vw 0.83vw 0vw rgba(0, 0, 0, 0.2); /* 0px 8px 16px 0px -> proporcional */
 }
 
 .dropdown-content a {
-  color: #4CAF50;
+  color: var(--main-color);
   padding: 0.42vw 0.52vw; /* 8px 10px -> proporcional a vw */
   text-decoration: none;
   display: block;
@@ -122,13 +122,13 @@ span{
 }
 
 .dropdown-content a:hover {
-  background-color: #4CAF50;
-  color: #212121;
+  background-color: var(--main-color);
+  color: var(--bg-color);
 }
 
 .dropdown-content a:focus {
-  background-color: #212121;
-  color: #4CAF50;
+  background-color: var(--bg-color);
+  color: var(--main-color);
 }
 
 .dropdown-content #top:hover {
@@ -410,7 +410,7 @@ span{
     cursor: pointer;
     /* transform: scale(1.2); */
     box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: var(--bg-color);
+    background: white;
     border: 7px solid var(--main-color);
   }
   
