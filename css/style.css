@@ -266,7 +266,7 @@ span{
     transform: translateX(7.1vw);
     height: 100%;
     width: 2.6vw;
-    background-color: var(--main-color);
+    background: linear-gradient(to right, var(--main-color), white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -636,7 +636,7 @@ footer p{
 }
 
 .navbar a:hover{
-  color: var(--text-color);
+  color: var(--main-color);
   border-bottom: 0.5vw solid var(--main-color);
 }
 
